@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I365 JS Project 2</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- title/directions -->
+        <h1>Guessing Game!</h1>
+        <p>Click the buttons to guess the right number</p>
+
+        <!-- reset btn -->
+        <a class="btn disabled" id="resetBtn">Reset</a>
+        <!-- progress/total guesses-->
+        <section>
+            <h5 id="userProgress"></h5>
+            <h6 id="totalGuess"></h6>
+        </section>
+        <!-- error message -->
+        <p class="red-text" id="errorMessage"></p>
+
+        <!-- FOR GAME BOARD, creates all the nums from user input -->
+        <div class="board"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
